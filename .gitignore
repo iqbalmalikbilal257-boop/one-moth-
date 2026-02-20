@@ -1,41 +1,9 @@
-# Node dependencies
 node_modules/
-
-# Environment variables
 .env
-
-# Logs
-logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-
-# OS files
 .DS_Store
-Thumbs.db
-
-# IDE
-.vscode/
-.idea/
-
-# Database and Data
-paperify.db
-*.json
-!package.json
-!package-lock.json
-!demo-usage.json
-!payments.json
-!subscription-usage.json
-
-# If you want to keep demo-usage.json and payments.json as templates, 
-# you might want to only ignore the actual data. 
-# But for Railway, it's better to ignore these and let them be created or use env vars.
-# Let's ignore them to avoid leaking user data.
-demo-usage.json
-payments.json
-subscription-usage.json
-bilal.json
-
-# Uploads
+data/payments.json
+data/payment-orders.json
+data/referrals.json
 uploads/
-
+paperify.db
